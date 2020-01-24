@@ -63,13 +63,13 @@ $id = $_GET['id'];
                             <div class="form-group row">
                                 <label for="staticEmail" class="col-sm-2 col-form-label">Lugar de destino</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" name="lugar_destino" id="lugar_destino">
+                                    <input type="text" class="form-control" name="lugar_destino" id="lugar_destino" required>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="inputPassword" class="col-sm-2 col-form-label">Número kilometros</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" name="numero_kilometro" id="numero_kilometro">
+                                    <input type="text" class="form-control" name="numero_kilometro" id="numero_kilometro" required>
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -86,7 +86,7 @@ $id = $_GET['id'];
                                 <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
                                     <div class="form-group">
                                         <label>Material</label>
-                                        <select class="form-control" id="materia_id">
+                                        <select class="form-control" id="materia_id" required>
                                             <?php foreach ($list['material'] as $material) { ?>
                                                 <option value="<?php echo $material["id"]; ?>"><?php echo $material["nombre"]; ?></option>
                                             <?php } ?>
@@ -98,7 +98,7 @@ $id = $_GET['id'];
                                     <div class="form-group">
                                         <label>Peso carga KG </label>
                                         <input type="number" min="1" class="form-control" id="cargaId"
-                                               onKeyPress="return soloNumeros(event)">
+                                               onKeyPress="return soloNumeros(event)" required>
 
                                     </div>
                                 </div>

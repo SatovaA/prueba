@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb3a3891-67ef-420d-b0c4-842a3cb0d016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/sb-admin-2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sb-admin-2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asignar_ruta.php" beforeDir="false" afterPath="$PROJECT_DIR$/asignar_ruta.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +25,7 @@
               <entry file="file://$PROJECT_DIR$/../tecnalia/wp-content/themes/tevent/registro/index.php">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="-220">
-                    <caret line="467" column="63" lean-forward="true" selection-start-line="467" selection-start-column="16" selection-end-line="467" selection-end-column="63" />
+                    <caret line="467" column="63" selection-start-line="467" selection-start-column="16" selection-end-line="467" selection-end-column="63" />
                     <folding>
                       <element signature="e#18516#20247#0#HTML" />
                       <element signature="e#20271#23309#0#HTML" />
@@ -43,13 +42,21 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/asignar_ruta.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="293" column="9" selection-start-line="293" selection-start-column="9" selection-end-line="293" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+            <state relative-caret-position="362">
+              <caret line="166" column="7" selection-start-line="121" selection-start-column="3" selection-end-line="166" selection-end-column="7" />
               <folding>
-                <element signature="e#4667#5302#0#HTML" />
-                <element signature="e#4701#6432#0#HTML" />
+                <element signature="e#4629#5813#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -60,6 +67,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.error{</find>
+      <find>apellidos</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -71,11 +79,12 @@
         <option value="$PROJECT_DIR$/layouts/script.php" />
         <option value="$PROJECT_DIR$/css/sb-admin-2.min.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/asignar_ruta.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-121" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
@@ -146,12 +155,12 @@
       <workItem from="1579749640982" duration="10420000" />
       <workItem from="1579825984793" duration="2057000" />
       <workItem from="1579829665172" duration="19149000" />
-      <workItem from="1579870219252" duration="930000" />
+      <workItem from="1579870219252" duration="2393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="930000" />
+    <option name="totallyTimeSpent" value="2393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -163,7 +172,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -232,7 +241,7 @@
     <entry file="file://$PROJECT_DIR$/../tecnalia/wp-content/themes/tevent/registro/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-220">
-          <caret line="467" column="63" lean-forward="true" selection-start-line="467" selection-start-column="16" selection-end-line="467" selection-end-column="63" />
+          <caret line="467" column="63" selection-start-line="467" selection-start-column="16" selection-end-line="467" selection-end-column="63" />
           <folding>
             <element signature="e#18516#20247#0#HTML" />
             <element signature="e#20271#23309#0#HTML" />
@@ -240,14 +249,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataBase/basedatos.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehiculo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2241" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+        <state relative-caret-position="362">
+          <caret line="166" column="7" selection-start-line="121" selection-start-column="3" selection-end-line="166" selection-end-column="7" />
           <folding>
-            <element signature="e#4667#5302#0#HTML" />
-            <element signature="e#4701#6432#0#HTML" />
+            <element signature="e#4629#5813#0#HTML" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asignar_ruta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="293" column="9" selection-start-line="293" selection-start-column="9" selection-end-line="293" selection-end-column="9" />
         </state>
       </provider>
     </entry>
